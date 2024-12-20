@@ -10,4 +10,4 @@ router.route('/register').post(validate(signupSchema), authControllers.Register)
 router.route('/login').post(validate(loginSchema), authControllers.Login);
 router.route('/user').get(authMiddleware, authControllers.UserData);
 
-module.exports = router; 
+module.exports = router;

@@ -13,5 +13,5 @@ const contactForm = async (req, res) =>{
         res.status(500).json({error: "message not delivered"});
     }
 }
- 
+
 module.exports = {contactForm};

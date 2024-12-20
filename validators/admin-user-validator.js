@@ -19,4 +19,4 @@ const adminUserSchema = z.object({
         .max(10, { message: "Phone must not be more than 10 digits." }),
 });
 
-module.exports = {adminUserSchema}; 
+module.exports = {adminUserSchema};
