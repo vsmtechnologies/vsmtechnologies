@@ -89,5 +89,5 @@ const UserData = async (req, res) => {
         console.log(`error from the user route ${error}`);
     }
 }
-
+ 
 module.exports = { Home, Register, Login, UserData};

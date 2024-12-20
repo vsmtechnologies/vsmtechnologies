@@ -10,6 +10,6 @@ const getAppData = async (req, res) => {
     } catch (error) {
         next(error);
     }
-}
+} 
 
 module.exports = {getAppData};

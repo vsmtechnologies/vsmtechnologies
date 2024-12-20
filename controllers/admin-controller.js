@@ -14,7 +14,7 @@ const getAllUsers = async( req, res) =>{
     } catch (error) {
         next(error);
     }
-}
+} 
 
 // User Update Logic
 const updateUserById = async(req, res) => {

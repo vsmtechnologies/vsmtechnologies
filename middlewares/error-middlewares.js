@@ -6,4 +6,4 @@ const errorMiddlewares = (err, req, res, next) =>{
     return res.status(status).json({message, extraDetail});
 }
 
-module.exports = errorMiddlewares;
+module.exports = errorMiddlewares; 
