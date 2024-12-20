@@ -13,4 +13,4 @@ const AppSchema = new Schema({
 
 const AppModel = new model("App", AppSchema);
 
-module.exports = AppModel;
+module.exports = AppModel; 

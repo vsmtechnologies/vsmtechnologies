@@ -20,6 +20,6 @@ const contactSchema = z.object({
         .trim()
         .min(25, { message: "message must be more than 25 characters." })
         .max(2048, { message: "message must not be more than 2048 characters." }),
-});
+}); 
 
 module.exports = contactSchema;

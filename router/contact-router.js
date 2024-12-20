@@ -7,4 +7,4 @@ const contactSchema = require('../validators/contact-validator');
 
 router.route('/contact').post(validate(contactSchema), contactController.contactForm);
 
-module.exports = router;
+module.exports = router; 

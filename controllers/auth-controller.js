@@ -90,4 +90,4 @@ const UserData = async (req, res) => {
     }
 }
 
-module.exports = { Home, Register, Login, UserData};
+module.exports = { Home, Register, Login, UserData}; 
