@@ -11,12 +11,12 @@ const contactRoute = require('./router/contact-router');
 const adminRoute = require('./router/admin-router');
 const dataRoute = require('./router/data-router');
 
-const clorsOption = {
-    origin: "http://localhost:5173",
-    methods: "GET, POST, PUT, DELETE, PATCH, HEAD", 
-    credential: true,
-}; 
-app.use(cors(clorsOption)); 
+// const clorsOption = {
+//     origin: "http://localhost:5173",
+//     methods: "GET, POST, PUT, DELETE, PATCH, HEAD", 
+//     credential: true,
+// }; 
+app.use(cors()); 
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/form", contactRoute);
