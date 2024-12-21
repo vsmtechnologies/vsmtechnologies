@@ -11,7 +11,7 @@ const loginSchema = z.object({
         .min(6, { message: "password must be at least of 6 digits." })
         .max(225, { message: "password must not be more than 225 digits." }),
 });
- 
+
 const signupSchema = z.object({
     fullname: z
         .string({ required_error: "Name is required" })

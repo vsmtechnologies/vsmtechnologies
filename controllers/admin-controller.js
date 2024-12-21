@@ -78,4 +78,4 @@ const deleteContactById = async(req, res) => {
 }
 
 
-module.exports = {getAllUsers, updateUserById, deleteUserById, getUserById, getAllContacts, deleteContactById}; 
+module.exports = {getAllUsers, updateUserById, deleteUserById, getUserById, getAllContacts, deleteContactById};

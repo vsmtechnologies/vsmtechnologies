@@ -9,4 +9,4 @@ const contactSchema = new Schema({
 
 const ContactModel = new model("Contact", contactSchema);
 
-module.exports = ContactModel; 
+module.exports = ContactModel;

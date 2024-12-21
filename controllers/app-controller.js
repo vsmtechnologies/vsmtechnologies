@@ -12,4 +12,4 @@ const getAppData = async (req, res) => {
     }
 }
 
-module.exports = {getAppData}; 
+module.exports = {getAppData};
